@@ -1,7 +1,7 @@
 ﻿// HW1a Sales Total
 
-// Your Name:
-// Did you seek help ? If yes, specify the helper or web link here: 
+// Your Name:Ashley Ramirez
+// Did you seek help ? If yes, specify the helper or web link here: My own work
 
 using System;
 using System.Collections.Generic;
@@ -15,7 +15,33 @@ namespace HW1a_Sales
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello HW1");
+            string nameAsString;
+            string buyAsString;
+            string priceAsString
+
+
+            int quantity;
+            double price;
+            double subtotal;
+            double tax;
+            double total;
+
+            const double multiplier = .085;
+
+            string num1asString;
+            string num2asString;
+            string num3asString;
+
+
+            Console.WriteLine("What is the name of the product you are purchasing?");
+                String nameinput = Console.ReadLine();
+            Console.WriteLine("How many would you like to buy?");
+                String buyinput = Console.ReadLine();
+            Console.WriteLine(" What is the price?");
+                String priceinput = Console.ReadLine();
+            Console.ReadKey();
+
+            sum = 
         }
     }
 }
