@@ -15,33 +15,22 @@ namespace HW1a_Sales
     {
         static void Main(string[] args)
         {
-            string nameAsString;
-            string buyAsString;
-            string priceAsString
-
-
-            int quantity;
-            double price;
-            double subtotal;
-            double tax;
-            double total;
-
-            const double multiplier = .085;
-
-            string num1asString;
-            string num2asString;
-            string num3asString;
-
-
             Console.WriteLine("What is the name of the product you are purchasing?");
                 String nameinput = Console.ReadLine();
             Console.WriteLine("How many would you like to buy?");
-                String buyinput = Console.ReadLine();
+                int buyinput = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(" What is the price?");
-                String priceinput = Console.ReadLine();
+                double priceinput = Convert.ToDouble(Console.ReadLine());
             Console.ReadKey();
 
-            sum = 
+            const double sales_tax = 0.085;
+            double amtxprice = buyinput * priceinput;
+            double salestax = amtxprice * sales_tax;
+            double total = amtxprice + salestax;
+
+            Console.WriteLine($"Your subtotal is ${amtxprice}");
+            Console.WriteLine($"Your sales tax is ${salestax}");
+            Console.WriteLine($"Your final total is ${total}");
         }
     }
 }
