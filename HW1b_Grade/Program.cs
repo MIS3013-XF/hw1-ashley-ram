@@ -43,7 +43,7 @@ namespace HW1b_Grade
             double Exam2 = 0.25;       
             double Exam3 = 0.25;        
             double Homework = 0.20;
-            double Participation = 0.15;
+            double Participation = 0.15; 
 
             double finalGrade = (homework * Homework) +
                                 (participation * Participation) +
