@@ -30,7 +30,7 @@ namespace HW1a_Sales
 
             Console.WriteLine($"Your subtotal is ${amtxprice}");
             Console.WriteLine($"Your sales tax is ${salestax}");
-            Console.WriteLine($"Your final total is ${total}");
+            Console.WriteLine($"Your final total is ${total}"); 
         }
     }
 }
